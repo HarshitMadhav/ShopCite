@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:showAsAction="always"
+    android:theme="@style/AppTheme"
+    tools:context="com.madsum.shopcite.BrowseByStoreCat">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:onClick="onClickElecStore"
+        app:srcCompat="@drawable/br_by_store_elec"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onClickApStore"
+        app:srcCompat="@drawable/br_by_store_ap"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:onClick="onClickPcStore"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp"
+        app:srcCompat="@drawable/br_by_store_pc"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:onClick="onClickSpStore"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/br_by_store_sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="468dp" />
+</RelativeLayout>

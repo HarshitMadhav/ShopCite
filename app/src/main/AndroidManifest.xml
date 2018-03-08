@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.madsum.shopcite">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ApparelsList"
+            android:label="@string/title_activity_apparels_list" />
+        <activity android:name=".ElectronicsList" />
+        <activity android:name=".PersonalList" />
+        <activity android:name=".SpecialList" />
+        <activity android:name=".ElecShopList" />
+        <activity
+            android:name=".ElecShopView"
+            android:label="@string/title_activity_shop_view"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ApShopView"
+            android:label="@string/title_activity_ap_shop_view"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PcShopView"
+            android:label="@string/title_activity_pc_shop_view"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SpShopView"
+            android:label="@string/title_activity_sp_shop_view"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BrowseByStoreCat"
+            android:label="@string/app_name"
+            android:showAsAction="always"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".BbsElec" />
+        <activity android:name=".SingleItemView"></activity>
+    </application>
+
+</manifest>
