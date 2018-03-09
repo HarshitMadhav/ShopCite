@@ -60,7 +60,8 @@
         <activity
             android:name=".ElecShopViewTwo"
             android:label="@string/title_activity_elec_shop_view_two"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AboutUs"></activity>
     </application>
 
 </manifest>
