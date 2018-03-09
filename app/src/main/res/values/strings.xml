@@ -197,8 +197,9 @@
     <string name="title_activity_pc_shop_view">XYZ Personal Care</string>
     <string name="title_activity_sp_shop_view">SpShopView</string>
     <string name="title_activity_browse_by_store_cat">BrowseByStoreCat</string>
-    <string name="ranklabel">"Rank : "</string>
-    <string name="countrylabel">"Country : "</string>
-    <string name="populationlabel">"Population : "</string>
+    <string name="ranklabel">"Price : "</string>
+    <string name="countrylabel">"City : "</string>
+    <string name="populationlabel">"Ratings : "</string>
+    <string name="title_activity_elec_shop_view_two">ElecShopViewTwo</string>
 
 </resources>

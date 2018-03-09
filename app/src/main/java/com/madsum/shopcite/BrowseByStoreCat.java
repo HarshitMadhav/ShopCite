@@ -19,17 +19,17 @@ public class BrowseByStoreCat extends AppCompatActivity {
         startActivity(intent);
     }
     public void onClickPcStore(View view){
-        Intent intent= new Intent(this, PcShopView.class);
+        Intent intent= new Intent(this, BbsPc.class);
         startActivity(intent);
     }
 
     public void onClickSpStore(View view){
-        Intent i= new Intent(this, SpShopView.class);
+        Intent i= new Intent(this, BbsSp.class);
         startActivity(i);
     }
 
     public void onClickApStore(View v){
-        Intent i= new Intent(this, ApShopView.class);
+        Intent i= new Intent(this, BbsApparels.class);
         startActivity(i);
     }
 }

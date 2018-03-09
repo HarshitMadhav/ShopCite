@@ -53,7 +53,14 @@
             android:showAsAction="always"
             android:theme="@style/AppTheme" />
         <activity android:name=".BbsElec" />
-        <activity android:name=".SingleItemView"></activity>
+        <activity android:name=".SingleItemView" />
+        <activity android:name=".BbsApparels" />
+        <activity android:name=".BbsPc" />
+        <activity android:name=".BbsSp" />
+        <activity
+            android:name=".ElecShopViewTwo"
+            android:label="@string/title_activity_elec_shop_view_two"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

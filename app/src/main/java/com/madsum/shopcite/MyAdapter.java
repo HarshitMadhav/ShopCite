@@ -80,7 +80,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
                     break;
 
                 case 1:
-                    intent =  new Intent(context, PcShopView.class);
+                    intent =  new Intent(context, ElecShopViewTwo.class);
                     break;
                 default:
                     intent =  new Intent(context, ElecShopView.class);

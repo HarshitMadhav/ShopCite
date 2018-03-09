@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.madsum.shopcite.ElecShopView">
+    tools:context="com.madsum.shopcite.ElecShopViewTwo">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
-        android:background="@drawable/elec_shop"
-        android:fitsSystemWindows="true"
+        android:background="@drawable/elec_st"
 
+        android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -35,7 +35,7 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_elec_shop_view" />
+    <include layout="@layout/content_elec_shop_view_two" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -46,6 +46,7 @@
         app:layout_anchorGravity="bottom|end"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,4 +56,5 @@
         app:layout_anchorGravity="bottom|start"
         app:srcCompat="@drawable/call_fab"
         />
+
 </android.support.design.widget.CoordinatorLayout>

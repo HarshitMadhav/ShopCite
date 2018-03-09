@@ -1,22 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+
+    android:background="#5c5c5c"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:background="#5c5c5c">
 
     <TextView
         android:id="@+id/ranklabel"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ranklabel" />
 
     <TextView
         android:id="@+id/rank"
+
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/ranklabel" />
 
     <TextView
         android:id="@+id/countrylabel"
+
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ranklabel"
@@ -24,6 +46,10 @@
 
     <TextView
         android:id="@+id/country"
+
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rank"
@@ -33,11 +59,19 @@
         android:id="@+id/populationlabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+
+        android:textColor="#ffffff"
         android:layout_below="@+id/countrylabel"
         android:text="@string/populationlabel" />
 
     <TextView
         android:id="@+id/population"
+
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/country"
@@ -45,10 +79,29 @@
 
     <ImageView
         android:id="@+id/flag"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_alignParentRight="true"
-        android:background="#000000"
+        android:background="#5c5c5c"
         android:padding="1dp" />
 
+        <Button
+            android:id="@+id/avButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="74dp"
+            android:onClick="onClickAvStores"
+            android:textStyle="bold"
+            android:text="Available at stores :"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
 </RelativeLayout>
+</FrameLayout>
